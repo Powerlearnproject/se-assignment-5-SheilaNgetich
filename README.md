@@ -1,45 +1,99 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XoLGRbHq)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15323152&assignment_repo_type=AssignmentRepo)
+
 # SE-Assignment-5
 Installation and Navigation of Visual Studio Code (VS Code)
- Instructions:
-Answer the following questions based on your understanding of the installation and navigation of Visual Studio Code (VS Code). Provide detailed explanations and examples where appropriate.
 
  Questions:
 
-1. Installation of VS Code:
-   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+**1. Installation of VS Code:** 
 
-2. First-time Setup:
-   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+**Download VS Code:**
+- Go to the official Visual Studio Code website.
+- Click on the download button for Windows.
+- Once downloaded, run the installer.
+  
+**Installation Steps:**
 
-3. User Interface Overview:
-   - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+- Run the downloaded installer (.exe file).
+- Follow the prompts in the installer (accepting the license agreement, choosing installation location, etc.).
+- Click "Next" and then "Install".
+- Once installed, you can launch VS Code from the Start menu.
+  
+**Prerequisites:**
 
-4. Command Palette:
-   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+- Ensure your system meets the system requirements for VS Code.
+- It's also recommended to have Git installed if you plan to use version control features.
 
-5. Extensions in VS Code:
-   - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+**2. First-time Setup:**
 
-6. Integrated Terminal:
-   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+**Settings:**
 
-7. File and Folder Management:
-   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+- Access settings by pressing Ctrl + , or navigating to File > Preferences > Settings.
+- Customize preferences like themes (workbench.colorTheme), font size (editor.fontSize), and keybindings (keybindings.json).
+  
+**Extensions:**
 
-8. Settings and Preferences:
-   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+Install useful extensions for your workflow from the Extensions view (Ctrl + Shift + X).
 
-9. Debugging in VS Code:
-   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+**3. User Interface Overview:**
 
-10. Using Source Control:
-    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+- Activity Bar: Provides quick access to different views like Explorer, Search, Source Control, etc.
+- Side Bar: Contains views like Explorer (file browser), Git (source control), Extensions, and more.
+- Editor Group: Area where files are opened for editing, arranged in tabs.
+- Status Bar: Displays information like line and column number, Git branch, and other status indicators.
 
- Submission Guidelines:
-- Your answers should be well-structured, concise, and to the point.
-- Provide screenshots or step-by-step instructions where applicable.
-- Cite any references or sources you use in your answers.
-- Submit your completed assignment by 1st July 
+**4. Command Palette:**
+
+- The Command Palette (Ctrl + Shift + P) allows you to execute commands or search for them:
+
+Examples:
+Git: Commit: Opens a prompt to commit changes.
+Extensions: Install Extensions: Opens the Extensions view to search and install extensions.
+
+**5. Extensions in VS Code:**
+
+- Role: Extensions add functionality to VS Code.
+- Finding and Installing: Use the Extensions view (Ctrl + Shift + X) to search for and install extensions.
+Examples:
+Essential for Web Development: Live Server, ESLint, Prettier - Code formatter.
+
+**6. Integrated Terminal:**
+
+- Open with Ctrl + ` or View > Terminal.
+Advantages include quick access without leaving the editor, ability to run command line tasks directly.
+
+**7. File and Folder Management:**
+- Creating and Opening: Use Ctrl + N to create a new file, Ctrl + O to open a file.
+     
+- Navigation: Use the Explorer view or Ctrl + P to quickly open files by name.
+
+**8. Settings and Preferences:**
+- Customization: Access settings through File > Preferences > Settings or Ctrl + ,.
+
+Examples:
+Changing Theme: Set workbench.colorTheme to your preferred theme.
+Font Size: Adjust editor.fontSize.
+Keybindings: Customize through keybindings.json.
+
+**9. Debugging in VS Code:**
+
+- Setup:
+
+  - Install necessary debugger extensions if not already included (Ctrl + Shift + X).
+  - Create a launch.json configuration for your project (often generated automatically).
+    
+- Starting Debugging:
+
+  - Set breakpoints in your code (F9), then F5 to start debugging.
+  - Use the Debug view (Ctrl + Shift + D) for debugging controls.
+
+**10. Using Source Control:**
+
+- Integration: VS Code has built-in Git support.
+  
+- Process:
+  - Initialize a repository: Git: Initialize Repository in the Command Palette.
+  - Make commits: Stage changes using the Source Control view, then commit with a message.
+    
+- Push changes: Use the sync button in the Source Control view to push to a remote repository like GitHub.
+
 
